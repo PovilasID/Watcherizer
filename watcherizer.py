@@ -20,8 +20,8 @@ import re
 import os
 
 
-slack_channel = ""
-slack_token   = ""
+slack_channel = os.environ["slack_channel"]
+slack_token   = os.environ["slack_token"]
 
 sleep_time    = 60 * randint(30, 60)
 report_fmt    = """
