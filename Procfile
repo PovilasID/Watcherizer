@@ -1,1 +1,1 @@
-web: gunicorn watcherizer:app
+web: python3 watcherizer.py
