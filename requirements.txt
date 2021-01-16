@@ -3,3 +3,4 @@ requests
 slackclient
 bs4
 gunicorn
+colorama
